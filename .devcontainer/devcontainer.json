@@ -1,0 +1,19 @@
+{
+	"name": "LatexTemplate",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"tomoki1207.pdf",						// pdf visualisation and navigation integrated into vscode
+				"torn4dom4n.latex-support", 			// latex language linting
+				"tecosaur.latex-utilities",				// latex utilities
+				"James-Yu.latex-workshop",				// latex compilation suit
+				"christian-kohler.path-intellisense",	// path intellisense for easy url completion
+				"ms-azuretools.vscode-docker"			// docker linting to develop this dev container
+			]
+		}
+	}
+}

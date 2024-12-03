@@ -1,0 +1,5 @@
+{
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "latex-workshop.mathpreviewpanel.editorGroup": "right",
+    "latex-workshop.view.pdf.scrollMode": 0
+}

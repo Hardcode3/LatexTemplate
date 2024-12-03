@@ -1,0 +1,49 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+
+# SyncTeX files
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Intermediate and log files
+*.log
+*.ilg
+*.xdy
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.dvi
+*.xdv
+
+# PDFs (if not final output)
+*.pdf
+
+# Build directories (if using an output directory like "build/")
+build/
+
+# Editor-specific files
+# For example, Emacs, Vim, and others
+*.swp
+*.swo
+*~
+
+# MacOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+desktop.ini

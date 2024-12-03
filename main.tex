@@ -1,0 +1,106 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}   % UTF-8 encoding
+\usepackage[T1]{fontenc}      % Enhanced font encoding
+\usepackage{amsmath}          % Advanced math typesetting
+\usepackage{amssymb}          % Additional math symbols
+\usepackage{graphicx}         % For including images
+\usepackage{hyperref}         % Hyperlinks
+\usepackage{booktabs}         % Better tables
+\usepackage{geometry}         % Page layout
+\usepackage{longtable}        % Multi-page tables
+\usepackage{cite}             % Better citations
+\usepackage{titlesec}         % Section formatting
+\usepackage{tocbibind}        % Include ToC, List of Figures, etc., in ToC
+\usepackage{xcolor}           % Color text
+
+% Geometry settings
+\geometry{margin=1in}
+
+% Hyperlink settings
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Comprehensive LaTeX Template},
+    pdfauthor={Your Name},
+    pdfsubject={LaTeX Template},
+    pdfkeywords={LaTeX, Template, Example}
+}
+
+% Document Metadata
+\title{Comprehensive LaTeX Template}
+\author{Your Name}
+\date{\today}
+
+% Begin Document
+\begin{document}
+
+% Title Page
+\maketitle
+
+% Table of Contents
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
+\section{Introduction}
+This template demonstrates the use of various LaTeX environments and features for creating comprehensive documents.
+
+\section{Equations}
+Here is an inline equation: $E = mc^2$. 
+
+And here is a displayed equation:
+\begin{equation}
+\int_a^b f(x) \, dx = F(b) - F(a)
+\end{equation}
+
+\section{Images}
+You can include images using the \texttt{graphicx} package:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{assets/example.png}
+    \caption{This is an example image placeholder. Replace it with your image.}
+    \label{fig:example}
+\end{figure}
+
+\section{Tables}
+Tables can be created using the \texttt{tabular} environment:
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Column 1} & \textbf{Column 2} & \textbf{Column 3} \\ \hline
+        Row 1, Col 1 & Row 1, Col 2 & Row 1, Col 3 \\ \hline
+        Row 2, Col 1 & Row 2, Col 2 & Row 2, Col 3 \\ \hline
+    \end{tabular}
+    \caption{Example Table}
+    \label{tab:example}
+\end{table}
+
+\section{Bibliography}
+Here is an example citation~\cite{example}.
+To include a bibliography, use the \texttt{biblatex} package or \texttt{bibliography} command. Below is an example.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\section{Hyperlinks}
+You can add hyperlinks using the \texttt{hyperref} package:
+\begin{itemize}
+    \item Visit \href{https://www.latex-project.org}{LaTeX Project Website}.
+    \item Email: \href{mailto:yourname@example.com}{yourname@example.com}.
+\end{itemize}
+
+\section{Conclusion}
+This template provides examples for various LaTeX features. Expand and customize it as needed for your document.
+
+\appendix
+\section{Appendix}
+You can include additional content here, such as detailed tables, proofs, or extra references.
+
+\end{document}
